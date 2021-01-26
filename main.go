@@ -13,6 +13,7 @@ var wg sync.WaitGroup
 func chanOwner() <-chan byte {
 	defer  wg.Done()
 	orders := make(chan byte, 10)
+
 	go func() {
 		defer close(orders)
 		scanner := bufio.NewScanner(os.Stdin)
