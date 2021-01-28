@@ -10,6 +10,7 @@ import (
 var board [][]int
 var wg sync.WaitGroup
 
+
 func chanOwner() <-chan byte {
 	defer  wg.Done()
 	orders := make(chan byte, 10)
