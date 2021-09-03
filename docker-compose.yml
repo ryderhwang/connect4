@@ -1,5 +1,0 @@
-services:
-  connect4:
-    build: .
-    stdin_open: true # docker run -i
-    tty: true
