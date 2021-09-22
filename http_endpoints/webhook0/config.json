@@ -1,0 +1,6 @@
+{
+    "name": "webhook0",
+    "type": "http",
+    "config": {},
+    "version": 1
+}

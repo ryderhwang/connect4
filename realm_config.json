@@ -4,5 +4,5 @@
     "name": "Application-1",
     "location": "US-VA",
     "deployment_model": "LOCAL",
-    "environment": "qa"
+    "environment": "development"
 }
